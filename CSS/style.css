@@ -334,4 +334,23 @@ img {
     margin-left: -15px;
 }
 
+#projects .card{
+    transform: scale(.96);
+    transition: ease-in-out .6s;
+}
 
+#projects .card:hover{
+    transform: scale(1);
+}
+
+#projects a{
+    text-decoration: none;
+}
+
+#preloader {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    background: #fff url(../IMG/giphy.gif) no-repeat center;
+    z-index: 1001;
+}

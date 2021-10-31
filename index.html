@@ -27,7 +27,11 @@
 
 </head>
 
-<body>
+<body onload="myloader()">
+    <!-- preloader -->
+	<div id="preloader">
+	</div>
+	<!-- end preloader -->
     <header>
         <a href="#" class="logo">My Portfolio</a>
         <div class="toggle" onclick="toggleMenu();"></div>
@@ -125,16 +129,25 @@
                 <div class="card-block" >
                     <h2>PROJECTS&nbsp;<i class="fa fa-file-code-o" aria-hidden="true"></i></h2>
                     <div class="row">
-                        <div class="col-md-4" style="background-color: rgba(182, 45, 227,0.4);padding: 20px 20px;">
-                            <a style=" text-decoration: none;" href="https://github.com/HimaRaniMathews/PETSWORLD-Ecommerce_Website"><img src="IMG/5.png" class="img-responsive img-thumbnail" alt="">
+                        <div class="col" style="background-color: rgba(182, 45, 227,0.4);padding: 20px 20px;">
+                             <div class="card mb-4 p-2 shadow-sm">
+                        <a href="https://portfolio.smaranjitghose.codes/"><img src="./Images/apw.JPG" alt=""
+                                class="card-img-top"></a>
+                        <a style=" text-decoration: none;" href="https://github.com/HimaRaniMathews/PETSWORLD-Ecommerce_Website"><img src="IMG/5.png" class="img-responsive img-thumbnail" alt="">
                             <h3 class="h5"><strong>PETSWORLD</strong></h3>
                             <p>An Ecommerece website made using HTML,CSS,JavaScript,PHP and MySQL </p></a> 
+                    </div>
+                            
                         </div><br><br><br><br>
-                        <div class="col-md-4"style="background-color: rgba(182, 45, 227,0.4);padding: 20px 20px;">
-                           <a style=" text-decoration: none;" href="https://github.com/HimaRaniMathews/Mini-Projects/tree/main/Javascript"><img src="IMG/a.png" class="img-responsive  img-thumbnail" alt="">
+                         <div class="col" style="background-color: rgba(182, 45, 227,0.4);padding: 20px 20px;">
+                             <div class="card mb-4 p-2 shadow-sm">
+                        <a style=" text-decoration: none;" href="https://github.com/HimaRaniMathews/Mini-Projects/tree/main/Javascript"><img src="IMG/a.png" class="img-responsive  img-thumbnail" alt="">
                             <h3 class="h5"><strong>Mini JS Projects</strong></h3>
                             <p>Calculator and TO-DO Websites are made using HTML,CSS and JS</p></a>
+                    </div>
+                            
                         </div>
+                        
                         
                     </div>
                 </div>
@@ -156,6 +169,17 @@
 <!--------------------------------------------------------------------------------------------------------------->
 
     <script type="text/javascript">
+        var loader=document.getElementById('preloader');
+        var MyVar;
+        function myloader(){
+              
+        MyVar=setTimeout(function(){   
+        loader.style.display="none";  
+        }, 5000);
+        }
+       function myStopFunction() {
+        clearTimeout(MyVar);
+       }
         window.addEventListener("scroll", function() {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
