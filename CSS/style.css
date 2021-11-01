@@ -354,3 +354,11 @@ img {
     background: #fff url(../IMG/giphy.gif) no-repeat center;
     z-index: 1001;
 }
+@keyframes zoom{
+	0%,100%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(0.9);
+	}
+}
