@@ -1,2 +1,4 @@
 # HimaRaniMathews.github.io
-My Portfolio Page
+Portfolio Page With a 
+  * preloder
+  * animated image
