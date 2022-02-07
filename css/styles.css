@@ -148,7 +148,7 @@ body {
   border: 5px solid #49035c;
   border-style: dotted;
   height: auto;
-  max-width:100%;
+  max-width: 100%;
 }
 
 .imgdiv {
@@ -160,8 +160,8 @@ body {
 .container-4 {
   margin: 0;
   width: 100%;
-  background-color: #49035c;
-  color: white;
+  background-color: white;
+  color: #49035c;
   font-family: 'Dongle', sans-serif;
   font-size: 30px;
   padding-bottom: 20px;
@@ -169,28 +169,30 @@ body {
 
 .container-4 h1 {
   text-align: center;
-  color: white;
+  color: #49035c;
   margin: 10px auto auto auto;
   padding: 20px auto;
 }
 
-.container-4 button{
+.container-4 button {
   float: right;
   display: inline-block;
-background-color: white;
-color: #49035c;
-border-radius: 15px;
-padding: 10px;
-border: 1px solid white;
+  background-color: white;
+  color: #49035c;
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid white;
 }
-.pp1{
+
+.pp1 {
   float: right;
-  width:250px;
+  width: 250px;
   text-align: center;
 }
-.pp2{
+
+.pp2 {
   float: left;
-  width:250px;
+  width: 250px;
 }
 
 .imgc41 {
@@ -214,10 +216,10 @@ border: 1px solid white;
 }
 
 .c4 {
-  background-color: rgba(175, 136, 186,0.4);
+  background-color: rgba(175, 136, 186, 0.4);
   width: 50%;
   margin: 20px auto;
-  color: white;
+  color: #49035c;
   border-radius: 20px;
 }
 
@@ -238,30 +240,40 @@ border: 1px solid white;
 }
 
 /*----------------------------------------------------------------------SECTION 5----------------*/
-
 .container-5 {
-  color: #49035c;
+  background-color: #49035c;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.fab {
+  color: white;
 }
 
 /*----------------------------------------------------------------------SECTION 5----------------*/
-.container-6{
+.container-6 {
   background-color: #49035c;
   color: white;
   font-family: 'Dongle', sans-serif;
 }
-.h61{
+
+.h61 {
   margin-bottom: 0;
-    color: white;
+  color: white;
 }
-.h62{
+
+.h62 {
   margin-bottom: 0px;
   margin-top: 0px;
-    color: white;
+  color: white;
 }
-.h63{
+
+.h63 {
   padding-top: 30px;
-    color: white;
+  color: white;
 }
+
 .container-6 ul li a {
   position: relative;
   display: inline-block;
