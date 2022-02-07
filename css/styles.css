@@ -177,8 +177,8 @@ body {
 .container-4 button {
   float: right;
   display: inline-block;
-  background-color: white;
-  color: #49035c;
+  background-color: #49035c;
+  color: white;
   border-radius: 15px;
   padding: 10px;
   border: 1px solid white;
@@ -260,6 +260,7 @@ body {
 
 .h61 {
   margin-bottom: 0;
+  font-size: 30px;
   color: white;
 }
 
